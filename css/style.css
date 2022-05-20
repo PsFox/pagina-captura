@@ -1,3 +1,5 @@
+
+/* Background e fonte do site */
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +14,9 @@ body{
     max-width: 1000px;
     margin: auto;
 }
+
+
+/* Conteúdo do Site */
 header{
     color: #fff;
     background-color: #48c5ce;
@@ -22,4 +27,14 @@ header{
 .title{
     font-size: 26px;
     text-transform: uppercase;
+}
+
+section{
+    color: #fff;
+}
+section h2{
+    text-transform: uppercase;
+}
+section p{
+    text-align: justify;
 }
